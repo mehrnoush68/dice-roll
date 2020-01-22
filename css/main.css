@@ -1,0 +1,20 @@
+body {
+    text-align: center; 
+ }
+h1 {
+    margin: 1em;
+    padding: 1em;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+ .dice-sides img {
+    margin: auto;
+    width: 30%;
+    background-color: rgb(150, 199, 199);
+    border-radius: 1em;
+}
+.rollBtn {
+    color: white;
+    background-color: black;
+    margin: 1em;
+}
