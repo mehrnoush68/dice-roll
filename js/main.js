@@ -20,6 +20,38 @@ rollDiceBtn.addEventListener('click', (event) =>
 
     //assigning variable for the result
     let rollResult = document.querySelector('#result');
+
     //using function
     rollResult.innerHTML = getResult (randomNum);
 })
+
+
+
+
+//In Class Notes
+
+// problem A: Roll a randdom integer between 1 to 6
+// let roll = 5;
+
+
+// problem B: Change the output to show: You rolled 3
+// Find the element (the whole output,or just the number)
+// change the contents of the element to reflect a new value
+
+
+// problem C: change the dice image to match the roll
+//1. Find the img element
+//2. change the src attribute's url to match the dice roll
+
+
+// problem D: When the button is clicked, re-roll the dice
+
+//1. Fimd the <button> element
+//2. Add a click listener that will run all previous steps again 
+
+// Other possible addons:
+// -Keep a history of the dice rolls
+//  -Show how many of each number as a percentage
+// -Add a second dice and make it a craps game
+//  -Output the results as a phrase: "Snake eyes"
+// 
